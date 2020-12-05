@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 Web_APP_for_AQI = Flask(__name__)
-model = pickle.load(open('AQI_model.pkl', 'rb'))
+model = pickle.load(open('AQI_model1.pkl', 'rb'))
 
 @Web_APP_for_AQI.route('/')
 def home():
