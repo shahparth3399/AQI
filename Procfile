@@ -1,1 +1,1 @@
-web: gunicorn Web_APP_for_AQI: Web_APP_for_AQI
+web: gunicorn Web_APP_for_AQI:Web_APP_for_AQI
